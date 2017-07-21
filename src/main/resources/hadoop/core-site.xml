@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <!--<name>fs.default.name</name>-->
+    <!--<value>hdfs://master:9000</value>-->
+    <name>fs.defaultFS</name>
+    <value>hdfs://localhost:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/home/conan/hadoop/tmp</value>
+  </property>
+  <property>
+    <!--<name>io.sort.mb</name>-->
+    <name>mapreduce.task.io.sort.mb</name>
+    <value>256</value>
+  </property>
+</configuration>
